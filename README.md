@@ -4,6 +4,15 @@
 ## Overview
 This project utilizes machine learning models to predict chemical toxicity based on molecular features. The dataset used is the **Tox21 dataset**, a widely used benchmark dataset for toxicity prediction.
 
+## Problem: Late-stage drug failures due to toxicity.  
+
+**Solution:** Build ML models (e.g., Random Forests, XGBoost) using toxicity datasets (e.g., Tox21) to flag toxic compounds early.  
+
+**Data Sources:** ToxCast, PubChem Toxicity Data.  
+
+**Business Value:** Reduce attrition rates in clinical trials and save millions in wasted development.
+
+
 # Importance of AI-driven toxicity prediction using the Tox21 dataset
 
 AI-driven toxicity prediction using the **Tox21 dataset** is crucial for several reasons, especially in **drug discovery, environmental safety, and chemical risk assessment**. Here’s why it matters:
