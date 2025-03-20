@@ -61,6 +61,21 @@ pip install deepchem rdkit-pypi shap xgboost scikit-learn matplotlib
 - A bar plot of SHAP values provides a ranking of feature importance.
 - These insights help in understanding how different molecular features contribute to toxicity predictions.
 
+![](SHAP.png)
+
+## Interpretation of the SHAP Summary Plot
+Feature Importance Ranking
+
+The y-axis lists the features ranked by their importance.
+The x-axis represents the mean absolute SHAP values, which quantify the average impact of each feature on the model’s output.
+Key Features Driving Model Predictions
+
+Feature 1873 has the highest SHAP value, indicating it has the most significant impact on model predictions.
+Features 875, 378, and 392 also play crucial roles but have a smaller impact than Feature 1873.
+Lower-ranked features like 519, 235, and 699 have a comparatively lower impact.
+
+
+
 ## Summary
 This project leverages AI techniques to predict toxicity levels based on molecular features. The combination of **DeepChem, machine learning models, and SHAP explainability** provides a comprehensive approach to toxicity prediction.
 
